@@ -1,0 +1,644 @@
+Line no 1: TOKEN <INT> Lexeme int found
+Line no 1: TOKEN <ID> Lexeme main found
+Scopetable 0
+1--><main:ID>--->
+
+
+
+Line no 1: TOKEN <LPAREN> Lexeme ( found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>--->
+
+
+
+Line no 1: TOKEN <RPAREN> Lexeme ) found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>--->
+
+
+
+Line no 1: TOKEN <LCURL> Lexeme { found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>--->
+
+3--><{:LCURL>--->
+
+
+
+Line no 2: TOKEN <INT> Lexeme int found
+Line no 2: TOKEN <ID> Lexeme a found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>--->
+
+3--><{:LCURL>--->
+
+7--><a:ID>--->
+
+
+
+Line no 2: TOKEN <COMMA> Lexeme , found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>--->
+
+3--><{:LCURL>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+
+
+Line no 2: TOKEN <ID> Lexeme b found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>--->
+
+3--><{:LCURL>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+
+
+Line no 2: TOKEN <SEMICOLON> Lexeme ; found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>--->
+
+3--><{:LCURL>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>--->
+
+
+
+Line no 3: TOKEN <ID> Lexeme a found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>--->
+
+3--><{:LCURL>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>--->
+
+
+
+Line no 3: TOKEN <ASSIGNOP> Lexeme = found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>--->
+
+3--><{:LCURL>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>--->
+
+
+
+Line no 3: TOKEN <ID> Lexeme a found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>--->
+
+3--><{:LCURL>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>--->
+
+
+
+Line no 3: TOKEN <ADDOP> Lexeme + found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>--->
+
+3--><{:LCURL>---><+:ADDOP>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>--->
+
+
+
+Line no 3: TOKEN <CONST_INT> Lexeme 1 found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>--->
+
+3--><{:LCURL>---><+:ADDOP>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>---><1:CONST_INT>--->
+
+
+
+Line no 3: TOKEN <SEMICOLON> Lexeme ; found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>--->
+
+3--><{:LCURL>---><+:ADDOP>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>---><1:CONST_INT>--->
+
+
+
+Line no 4: TOKEN <CHAR> Lexeme char found
+Line no 4: TOKEN <ID> Lexeme ch found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>--->
+
+3--><{:LCURL>---><+:ADDOP>---><ch:ID>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>---><1:CONST_INT>--->
+
+
+
+Line no 4: TOKEN <ASSIGNOP> Lexeme = found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>--->
+
+3--><{:LCURL>---><+:ADDOP>---><ch:ID>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>---><1:CONST_INT>--->
+
+
+
+Error at Line No.4: unfinished character 'a 
+Line no 4: TOKEN <SEMICOLON> Lexeme ; found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>--->
+
+3--><{:LCURL>---><+:ADDOP>---><ch:ID>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>---><1:CONST_INT>--->
+
+
+
+Line no 5: TOKEN <ID> Lexeme ch found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>--->
+
+3--><{:LCURL>---><+:ADDOP>---><ch:ID>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>---><1:CONST_INT>--->
+
+
+
+Line no 5: TOKEN <ASSIGNOP> Lexeme = found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>--->
+
+3--><{:LCURL>---><+:ADDOP>---><ch:ID>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>---><1:CONST_INT>--->
+
+
+
+Line no 5: TOKEN <CONST_CHAR> Lexeme '\t' found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>--->
+
+3--><{:LCURL>---><+:ADDOP>---><ch:ID>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>---><1:CONST_INT>---><	:CONST_CHAR>--->
+
+
+
+Line no 5: TOKEN <SEMICOLON> Lexeme ; found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>--->
+
+3--><{:LCURL>---><+:ADDOP>---><ch:ID>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>---><1:CONST_INT>---><	:CONST_CHAR>--->
+
+
+
+Line no 6: TOKEN <CHAR> Lexeme char found
+Line no 6: TOKEN <ID> Lexeme c found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>--->
+
+3--><{:LCURL>---><+:ADDOP>---><ch:ID>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>---><1:CONST_INT>---><	:CONST_CHAR>---><c:ID>--->
+
+
+
+Line no 6: TOKEN <LTHIRD> Lexeme [ found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>---><[:LTHIRD>--->
+
+3--><{:LCURL>---><+:ADDOP>---><ch:ID>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>---><1:CONST_INT>---><	:CONST_CHAR>---><c:ID>--->
+
+
+
+Line no 6: TOKEN <RTHIRD> Lexeme ] found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>---><[:LTHIRD>--->
+
+3--><{:LCURL>---><+:ADDOP>---><ch:ID>---><]:RTHIRD>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>---><1:CONST_INT>---><	:CONST_CHAR>---><c:ID>--->
+
+
+
+Line no 6: TOKEN <ASSIGNOP> Lexeme = found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>---><[:LTHIRD>--->
+
+3--><{:LCURL>---><+:ADDOP>---><ch:ID>---><]:RTHIRD>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>---><1:CONST_INT>---><	:CONST_CHAR>---><c:ID>--->
+
+
+
+Line no 6: TOKEN <STRING> Lexeme "ab\ntd" found
+Line no 6: TOKEN <SEMICOLON> Lexeme ; found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>---><[:LTHIRD>--->
+
+3--><{:LCURL>---><+:ADDOP>---><ch:ID>---><]:RTHIRD>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>---><1:CONST_INT>---><	:CONST_CHAR>---><c:ID>--->
+
+
+
+Line no 7: TOKEN <ID> Lexeme printf found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>---><[:LTHIRD>--->
+
+3--><{:LCURL>---><+:ADDOP>---><ch:ID>---><]:RTHIRD>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>---><1:CONST_INT>---><	:CONST_CHAR>---><c:ID>---><printf:ID>--->
+
+
+
+Line no 7: TOKEN <LPAREN> Lexeme ( found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>---><[:LTHIRD>--->
+
+3--><{:LCURL>---><+:ADDOP>---><ch:ID>---><]:RTHIRD>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>---><1:CONST_INT>---><	:CONST_CHAR>---><c:ID>---><printf:ID>--->
+
+
+
+Line no 7: TOKEN <STRING> Lexeme "abc\
+def\
+ghi" found
+Line no 7: TOKEN <RPAREN> Lexeme ) found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>---><[:LTHIRD>--->
+
+3--><{:LCURL>---><+:ADDOP>---><ch:ID>---><]:RTHIRD>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>---><1:CONST_INT>---><	:CONST_CHAR>---><c:ID>---><printf:ID>--->
+
+
+
+Line no 7: TOKEN <SEMICOLON> Lexeme ; found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>---><[:LTHIRD>--->
+
+3--><{:LCURL>---><+:ADDOP>---><ch:ID>---><]:RTHIRD>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>---><1:CONST_INT>---><	:CONST_CHAR>---><c:ID>---><printf:ID>--->
+
+
+
+Line no 8: Comment found
+Error at Line No.9:  Unfinished Comment /** another
+*** comment  
+Line no 9: TOKEN <MULOP> Lexeme * found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>---><[:LTHIRD>--->
+
+2--><*:MULOP>--->
+
+3--><{:LCURL>---><+:ADDOP>---><ch:ID>---><]:RTHIRD>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>---><1:CONST_INT>---><	:CONST_CHAR>---><c:ID>---><printf:ID>--->
+
+
+
+Line no 9: TOKEN <MULOP> Lexeme * found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>---><[:LTHIRD>--->
+
+2--><*:MULOP>--->
+
+3--><{:LCURL>---><+:ADDOP>---><ch:ID>---><]:RTHIRD>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>---><1:CONST_INT>---><	:CONST_CHAR>---><c:ID>---><printf:ID>--->
+
+
+
+Line no 9: TOKEN <MULOP> Lexeme * found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>---><[:LTHIRD>--->
+
+2--><*:MULOP>--->
+
+3--><{:LCURL>---><+:ADDOP>---><ch:ID>---><]:RTHIRD>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>---><1:CONST_INT>---><	:CONST_CHAR>---><c:ID>---><printf:ID>--->
+
+
+
+Line no 9: TOKEN <MULOP> Lexeme / found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>---><[:LTHIRD>--->
+
+2--><*:MULOP>--->
+
+3--><{:LCURL>---><+:ADDOP>---><ch:ID>---><]:RTHIRD>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>---></:MULOP>--->
+
+8--><b:ID>--->
+
+9--><;:SEMICOLON>---><1:CONST_INT>---><	:CONST_CHAR>---><c:ID>---><printf:ID>--->
+
+
+
+Line no 11: TOKEN <IF> Lexeme return found
+Line no 11: TOKEN <CONST_INT> Lexeme 0 found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>---><[:LTHIRD>--->
+
+2--><*:MULOP>--->
+
+3--><{:LCURL>---><+:ADDOP>---><ch:ID>---><]:RTHIRD>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>---></:MULOP>--->
+
+8--><b:ID>---><0:CONST_INT>--->
+
+9--><;:SEMICOLON>---><1:CONST_INT>---><	:CONST_CHAR>---><c:ID>---><printf:ID>--->
+
+
+
+Line no 11: TOKEN <SEMICOLON> Lexeme ; found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>---><[:LTHIRD>--->
+
+2--><*:MULOP>--->
+
+3--><{:LCURL>---><+:ADDOP>---><ch:ID>---><]:RTHIRD>--->
+
+4--><,:COMMA>--->
+
+7--><a:ID>---></:MULOP>--->
+
+8--><b:ID>---><0:CONST_INT>--->
+
+9--><;:SEMICOLON>---><1:CONST_INT>---><	:CONST_CHAR>---><c:ID>---><printf:ID>--->
+
+
+
+Line no 12: TOKEN <RCURL> Lexeme } found
+Scopetable 0
+0--><(:LPAREN>--->
+
+1--><main:ID>---><):RPAREN>---><=:ASSIGNOP>---><[:LTHIRD>--->
+
+2--><*:MULOP>--->
+
+3--><{:LCURL>---><+:ADDOP>---><ch:ID>---><]:RTHIRD>--->
+
+4--><,:COMMA>--->
+
+5--><}:RCURL>--->
+
+7--><a:ID>---></:MULOP>--->
+
+8--><b:ID>---><0:CONST_INT>--->
+
+9--><;:SEMICOLON>---><1:CONST_INT>---><	:CONST_CHAR>---><c:ID>---><printf:ID>--->
+
+
+
+End of file! number of error 2 and number of lines:13
